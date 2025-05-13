@@ -9,7 +9,7 @@ import pandas as pd
 
 # Load model and scalers
 model = pickle.load(open('model.pkl', 'rb'))
-scaler_x = pickle.load(open('scaler_x.pkl', 'rb'))
+scaler_x = pickle.load(open('scaler_X.pkl', 'rb'))
 scaler_y = pickle.load(open('scaler_y.pkl', 'rb'))
 
 # Page Config
